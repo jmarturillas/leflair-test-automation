@@ -1,0 +1,60 @@
+{
+  "correct_payload": {
+    "paymentMethod": "COD",
+	"cartItems": [
+      "001",
+      "sample item",
+      1.0,
+      1
+	],
+	"shippingFee": 35.00,
+	"addresses": {
+      "shipping": {
+        "fullname": "James Marturillas",
+        "phone": "+639173185720",
+        "address": "Tanza, Cavite, PH"
+      },
+      "billing": {
+        "fullname": "James Marturillas",
+        "phone": "+639173185720",
+        "address": "Tanza, Cavite, PH",
+        "company": "Leflair",
+        "taxCode": "LE0123456"
+      }
+	},
+	"card": {
+		"cardNumber": "5500000000000004",
+		"expiry": "02/22",
+		"cvv": "098"
+	}
+  },
+  "incorrect_payload": {
+    "paymentMethod": "*@&#^%&@#$&@#$$&%",
+	"cartItems": [
+      "001",
+      "sample item",
+      1.0,
+      1
+	],
+	"shippingFee": 35.00,
+	"addresses": {
+      "shipping": {
+        "fullname": "James Marturillas",
+        "phone": "+639173185720",
+        "address": "Tanza, Cavite, PH"
+      },
+      "billing": {
+        "fullname": "James Marturillas",
+        "phone": "+639173185720",
+        "address": "Tanza, Cavite, PH",
+        "company": "Leflair",
+        "taxCode": "LE0123456"
+      }
+	},
+	"card": {
+		"cardNumber": "5500000000000004",
+		"expiry": "02/22",
+		"cvv": "098"
+	}
+  }
+}

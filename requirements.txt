@@ -1,0 +1,12 @@
+bs4
+jsonlines
+jsonschema
+openpyxl
+pycrypto
+pyOpenSSL
+requests
+robotframework==3.0.4
+robotframework-faker
+robotframework-requests
+robotframework-sshlibrary
+urllib3

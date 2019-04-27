@@ -1,0 +1,36 @@
+{
+  "successful_checkout": {
+    "200": {
+      "type": "object",
+      "required": [
+        "code",
+        "total"
+      ],
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "total": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  "failed_checkout": {
+    "400_500": {
+      "type": "object",
+      "required": [
+        "code",
+        "message"
+      ],
+      "properties": {
+        "code": {
+          "type": "number"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
